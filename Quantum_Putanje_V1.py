@@ -32,9 +32,9 @@ from scipy.special import logsumexp
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_2977.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_plus_1733.csv"),
+    Path("/data/loto7_4710_k86.csv"),
+    Path("/data/loto7_4710_k86_loto_2977.csv"),
+    Path("/data/loto7_4710_k86_loto_plus_1733.csv"),
 )
 
 
@@ -2788,9 +2788,9 @@ DIJAGNOSTIKA: 6 treninga nema potvrđen gradijentni uslov; njihovi rezultati ne 
 DIJAGNOSTIKA: Koherentni model nije dao niži test NLL od dijagnostičke kontrole bez koherencije.
 
 ZAVRŠNI NEXT REZULTATI
-loto7_4710_k86.csv | NEXT: 5 13 18 19 22 33 35
-loto7_4710_k86_loto_2977.csv | NEXT: 1 8 9 17 19 23 38
-loto7_4710_k86_loto_plus_1733.csv | NEXT: 6 10 20 31 32 35 36
+loto7_4710_k86.csv | NEXT: 5 x 18 y 22 z 35
+loto7_4710_k86_loto_2977.csv | NEXT: 1 x 9 y 19 z 38
+loto7_4710_k86_loto_plus_1733.csv | NEXT: 6 x 20 y 32 z 36
 """
 
 
